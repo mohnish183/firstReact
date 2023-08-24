@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import ClassCompo from "./Compo/CLassCompo";
+import FuncCompo, { FuncCompoOne, DisplayData } from "./Props/FuncCompo";
+import PropsCompo from "./Props/PropsCompo";
+// import ClassCompo from "./Props/ClassCompo";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <DisplayData /> */}
+      {/* <ClassCompo /> */}
+      {/* <FuncCompoOne /> */}
+      {/* <FuncCompo /> */}
+      {/* <FuncCompo /> */}
+      {/* <ClassCompo /> */}
+      <PropsCompo />
     </div>
   );
 }
